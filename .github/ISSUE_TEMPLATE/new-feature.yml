@@ -1,0 +1,51 @@
+name: new-feature
+description: Template for ADK agent development tasks
+title: "[Agent] "
+labels: ["agent", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "## New Development Feature Request"
+
+  - type: textarea
+    id: objectives
+    attributes:
+      label: Objectives
+      description: What are the goals of this agent?
+      placeholder: |
+        - Build `agent_name` agent for [purpose]
+        - The built agent will be deployed on [platform]
+    validations:
+      required: true
+
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: Technical requirements and constraints
+      placeholder: |
+        - Use the latest version of ADK
+        - Use gemini 3 pro
+        - Use VertexAI
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implementation
+      description: Implementation details and approach
+      placeholder: "Describe the implementation approach"
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Related documentation, links, or resources
+      placeholder: |
+        - [Agent Development Kit](https://google.github.io/adk-docs/)
+        - [Relevant documentation](https://example.com)
+    validations:
+      required: false
