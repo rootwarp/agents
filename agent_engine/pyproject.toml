@@ -1,0 +1,8 @@
+[project]
+name = "hello-world"
+version = "0.1.0"
+description = "A friendly chatbot agent with Google Search capability for Agent Engine"
+requires-python = ">=3.12"
+dependencies = [
+    "google-cloud-aiplatform[agent_engines,adk]>=1.112.0",
+]
