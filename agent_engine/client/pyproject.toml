@@ -1,0 +1,10 @@
+[project]
+name = "agent-engine-client"
+version = "0.1.0"
+description = "CLI client for accessing Agent Engine resources"
+requires-python = ">=3.12"
+dependencies = [
+    "google-cloud-aiplatform[agent_engines]>=1.112.0",
+    "click>=8.1.0",
+    "python-dotenv>=1.0.0",
+]
